@@ -1,0 +1,53 @@
+.herobanner{
+    position: relative;
+    width:100%;
+    mask-image: linear-gradient(to right,transparent,black 75%);
+    -webkit-mask-image:linear-gradient(to right,transparent,black 75%);   
+ 
+}
+.herotitle{
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+.hero-btns{
+    display:flex;
+    gap:10px;
+    margin-bottom:50px;
+    .btn img{
+        width:25px;
+
+    }
+
+    .btn{
+        border:0;
+        outline:0;
+        padding: 8px 20px;
+        display: inline-flex;
+        align-items: center;
+        gap :10px;
+        font-size: 15px;
+        border-radius: 4px;
+        background: white;
+        font-weight: 600;
+        cursor: pointer;
+        
+    }
+    
+    .dark-btn{
+        color: #fff;    
+        background:#6d6d6eb3;
+    
+    }
+
+}
+
+.dark-btn:hover{
+    opacity:75%;
+}
+
+.btn:hover{
+    opacity:75%;
+}
+

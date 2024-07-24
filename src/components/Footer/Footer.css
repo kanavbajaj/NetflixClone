@@ -1,0 +1,20 @@
+.footer{
+    height: 30px;
+    width:100%;
+    position:relative;
+    margin-bottom: 1em;
+    text-align: left;
+    margin :20px auto;
+    .footer-icons{
+        margin-left:30%;
+        position: relative;
+        display: flex;
+        
+        
+        gap: 15px;
+    }
+    img{
+        height: 30px;
+        
+    }
+}
