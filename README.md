@@ -17,6 +17,10 @@ A modern Netflix clone built with React and Firebase, featuring movie recommenda
 - TMDB API for movie data
 - Vite for build tooling
 
+## Live Demo
+
+Check out the live demo: [Netflix Clone](https://netflix-clone-zeta-tawny.vercel.app)
+
 ## Getting Started
 
 1. Clone the repository:
@@ -45,10 +49,6 @@ VITE_TMDB_API_KEY=your_tmdb_api_key
 ```bash
 npm run dev
 ```
-
-## Live Demo
-
-[Add your deployed demo link here]
 
 ## Contributing
 
