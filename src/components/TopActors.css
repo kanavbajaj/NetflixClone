@@ -1,0 +1,99 @@
+.top-actors-section {
+  margin: 40px 0 32px 0;
+}
+
+.top-actors-list {
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  padding-bottom: 12px;
+  margin-bottom: 24px;
+}
+
+.actor-cutout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50%;
+  background: #232323;
+  padding: 10px;
+  min-width: 110px;
+  min-height: 110px;
+  transition: box-shadow 0.2s, border 0.2s;
+  border: 3px solid transparent;
+}
+
+.actor-cutout.selected, .actor-cutout:hover {
+  border: 3px solid #e50914;
+  box-shadow: 0 2px 12px rgba(229,9,20,0.2);
+}
+
+.actor-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 8px;
+  background: #181818;
+}
+
+.actor-placeholder {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.actor-name {
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+.actor-movies {
+  margin-top: 24px;
+}
+
+.actor-movies-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 18px;
+  margin-top: 12px;
+}
+
+.actor-movie-card {
+  background: #181818;
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.actor-movie-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-bottom: 1px solid #232323;
+}
+
+.actor-movie-card p {
+  margin: 10px 0 12px 0;
+  font-size: 15px;
+  text-align: center;
+}
+
+.actor-movie-card:hover {
+  transform: scale(1.04);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+} 

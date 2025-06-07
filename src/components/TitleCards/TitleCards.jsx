@@ -16,7 +16,7 @@ const TitleCards = ({title,category}) => {
     .then(response => response.json())
     .then(response => setApiData(response.results))
     .catch(err => console.error(err));
-  })
+  }, [category]);
 
   return (
     <div className='titlecards'>

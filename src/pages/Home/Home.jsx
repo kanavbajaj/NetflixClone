@@ -7,13 +7,16 @@ import playicon from '../../assets/play_icon.png'
 import infoicon from '../../assets/info_icon.png'
 import TitleCards from '../../components/TitleCards/TitleCards'
 import Footer from '../../components/Footer/Footer'
+import Recommended from '../../components/Recommended'
+import TopActors from '../../components/TopActors'
 const Home = () => {
   return (
     <div className='home'>
       <Navbar/>
     <div className="hero">
 
-      <img src={herologo} alt="" class className="herobanner"/>
+      <img src={herologo} alt="" className="herobanner"/>
+      <div className="hero-fade"></div>
       <div className="herotitle">
         <img src={heroname} alt="" /><br></br>
         <div className="hero-btns">
@@ -24,6 +27,8 @@ const Home = () => {
        <TitleCards/>
       </div>
     </div>
+    <TopActors/>
+    <Recommended/>
     <div className="more-cards">
     <TitleCards title={'Blockbuster Movie'} category={"top_rated"}/>
     <TitleCards title={'Only on netflix'} category={"popular"}/>
