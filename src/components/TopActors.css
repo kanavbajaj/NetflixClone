@@ -8,6 +8,13 @@
   overflow-x: auto;
   padding-bottom: 12px;
   margin-bottom: 24px;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.top-actors-list::-webkit-scrollbar {
+  display: none;
 }
 
 .actor-cutout {

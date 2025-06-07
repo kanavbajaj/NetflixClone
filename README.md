@@ -10,6 +10,24 @@ A modern Netflix clone built with React and Firebase, featuring movie recommenda
 - Watch history tracking
 - Responsive design
 
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+*Main page with featured content and movie categories*
+
+### Movie Player
+![Movie Player](screenshots/player.png)
+*Movie player with YouTube trailer integration*
+
+### Search Results
+![Search](screenshots/search.png)
+*Real-time search functionality with movie results*
+
+### User Profile
+![Profile](screenshots/profile.png)
+*User profile with watch history and recommendations*
+
 ## Tech Stack
 
 - React
